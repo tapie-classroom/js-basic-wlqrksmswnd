@@ -149,7 +149,7 @@ function restartGame() {
 
     if (score > BestScore) {
         localStorage.setItem("BestScore", score);
-        BestScoreDisplay.textContent = localStorage.getItem(BestScore);
+        BestScoreDisplay.textContent = score;
 
     }
   score = 0;
